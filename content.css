@@ -131,6 +131,15 @@
         background-color: #9C1D27;
         color: white;
     }
+    .timetable-section h1{
+        font-size: 50px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+    .timetable td{
+        border-radius: 40px;
+    }
 }
 @media(max-width:1000px){
     #slogan{
@@ -232,11 +241,5 @@
     }
     .founder-intro-image img{
         height: 280px;
-    }
-    .timetable-section h1{
-        font-size: 50px;
-        margin-bottom: 5px;
-        margin-left: 30px;
-        padding-bottom: 40px;
     }
 }
