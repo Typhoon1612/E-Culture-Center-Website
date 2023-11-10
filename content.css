@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-attachment: initial;
     margin-top: 139px;
+    margin-bottom: -40px;
 }
 
 #slogan h2{
@@ -99,7 +100,6 @@
 .timetable{
     display: flex;
     justify-content: center;
-    
 }
 .timetable th, .timetable td{
     background-color: white;
@@ -110,17 +110,41 @@
 }
 @media (max-width:700px){
     #slogan{
-        margin-bottom: -200px;
+        margin-bottom: 100px;
     }
     #slogan h2{
         padding-top: 85px;
         padding-left: 50px;
         font-size: 25px;
     }
+    .timetable-blank{
+        display: none;
+    }
+    .tt-fri, .tt-sat, .tt-sun{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .timetable th{
+        font-size: 40px;
+        font-weight: bolder;
+        background-color: #9C1D27;
+        color: white;
+    }
+    .timetable-section h1{
+        font-size: 50px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+    .timetable td{
+        border-radius: 40px;
+    }
 }
 @media(max-width:1000px){
     #slogan{
-        margin-bottom: -40px;
+        margin-bottom: 50px;
+        margin-bottom: -150px;
     }
     .calligraphy-intro{
         margin-top: 0px
@@ -154,30 +178,37 @@
     .ecc-location-text h2, .founder-intro-text h2{
         margin-bottom: 30px;
     }
+    .timetable th, .timetable td{
+        padding: 10px 15px;
+        font-size: 5px;
+    }
 }
 
 @media(max-width:1300px){
     /***Slogan & Banner***/
     #slogan{
         margin-top: 100px;
-        height: 40vh;
+        margin-bottom: -250px;
     }
     #slogan h2{
         padding-top: 85px;
         padding-left: 90px;
         font-size: 30px;
     }
+    .timetable th, .timetable td{
+        padding: 30px 60px;
+        font-size: 25px;
+    }
 }
 
 @media(max-width:600px){
     #slogan{
-        margin-bottom: -190px;
+        margin-bottom: -450px;
     }
     #slogan h2{
         font-size: 20px;
         padding-left: 10px;
         padding-top: 60px;
-        height:40px;
     }
     .calligraphy-intro{
         margin-top: -120px !important;
