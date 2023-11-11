@@ -279,8 +279,8 @@
 }
 
 @media(max-width:600px){
-    .nav-section{
-        font-size: 10px;
+    .show-nav-section .nav-btn{
+        font-size: 30px;
     }
     .footer-column-1{
         margin-left: 40px;
