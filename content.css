@@ -1,26 +1,29 @@
 /***Slogan & Banner***/
 #slogan{
     display:flex;
-    background-image: url(./images/banner_example.jpg);
+    background-image: url(./images/ecc-wallpaper.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: initial;
     margin-top: 139px;
-    margin-bottom: -40px;
 }
 
 #slogan h2{
     padding-left: 150px;
     padding-top: 150px;
     font-size: 40px;
-    text-shadow: 2px 2px 0px #ff6976;
     height: 650px;
 }
 
+#culture-is-attitude{
+    position: relative;
+    top:25px;
+    margin-left: 150px;
+}
 /***Calligraphy Intro***/
 .calligraphy-intro{
     margin: 100px;
-    margin-top: 30px;
+    /*margin-top: -10px;*/
 }
 
 .calligraphy-intro h1{
@@ -53,12 +56,16 @@
     border-radius: 50px;
 }
 
+.ecc-location-image{
+    height:100%;
+}
 .ecc-location-image img{
     width:300px;
     border-radius: 50px 0 0 50px;
 }
 
 .ecc-location-text{
+    font-size: 25px;
     margin: 0px 50px;
     color: white;
 }
@@ -80,6 +87,7 @@
     border-radius: 50px 0 0 50px;
 }
 .founder-intro-text{
+    font-size: 25px;
     margin: 0px 50px;
     color: white;
 }
@@ -143,8 +151,14 @@
 }
 @media(max-width:1000px){
     #slogan{
-        margin-bottom: 50px;
         margin-bottom: -150px;
+    }
+    #slogan h2{
+        padding-left: 20px;
+    }
+    #culture-is-attitude{
+        margin-left: 0px;
+        top:0px;
     }
     .calligraphy-intro{
         margin-top: 0px
@@ -192,8 +206,8 @@
     }
     #slogan h2{
         padding-top: 85px;
-        padding-left: 90px;
-        font-size: 30px;
+        padding-left: 20px;
+        font-size: 20px;
     }
     .timetable th, .timetable td{
         padding: 30px 60px;
@@ -206,7 +220,7 @@
         margin-bottom: -450px;
     }
     #slogan h2{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 10px;
         padding-top: 60px;
     }

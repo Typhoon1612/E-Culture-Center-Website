@@ -139,6 +139,7 @@
 .footer-column-3-btn{
     border-radius: 10px;
     padding: 12px 16px;
+    color: white;
 }
 .footer-column-3-btn:hover{
     background-color: #ff6976;
@@ -184,14 +185,16 @@
         .nav-btn{
             display: flex;
             text-align: center;
-            font-size: 40px;
+            font-size: 25px;
             font-weight: bold;
-            height: 90px;
+            height: 60px;
             letter-spacing: 30px;
             width: 100%;
             justify-content: center;
             align-items: center;
             border-radius: 0px;
+            padding: 2px 0px;
+            padding-left: 10px;
         }
         .nav-btn:hover{
             background-color: #ff3142;
@@ -278,6 +281,9 @@
 }
 
 @media(max-width:600px){
+    .show-nav-section .nav-btn{
+        font-size: 30px;
+    }
     .footer-column-1{
         margin-left: 40px;
     }
