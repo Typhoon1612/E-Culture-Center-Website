@@ -57,10 +57,14 @@
 }
 
 .ecc-location-image{
-    height:100%;
+    align-self: stretch;
+    flex-shrink: 0;
 }
 .ecc-location-image img{
-    width:300px;
+    display: block;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50px 0 0 50px;
 }
 
@@ -79,11 +83,14 @@
     border-radius: 50px;
 }
 .founder-intro-image{
-    height: 100%;
+    align-self: stretch;
+    flex-shrink: 0;
 }
 .founder-intro-image img{
-    width:300px;
-    height: 200px;
+    display: block;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50px 0 0 50px;
 }
 .founder-intro-text{

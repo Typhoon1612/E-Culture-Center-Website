@@ -1,0 +1,23 @@
+{
+  "name": "e-culture-center-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainpage.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Typhoon1612/E-Culture-Center-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Typhoon1612/E-Culture-Center-Website/issues"
+  },
+  "homepage": "https://github.com/Typhoon1612/E-Culture-Center-Website#readme",
+  "devDependencies": {
+    "vite": "^8.0.13"
+  }
+}
